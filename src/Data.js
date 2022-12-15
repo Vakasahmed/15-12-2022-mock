@@ -7,13 +7,6 @@ const Data = [
     Address: "2289 Rana Ramp , Hyderabad , India",
   },
   {
-    Bank: "bank of india",
-    IFSC: "BOIAXXXXXXX",
-    Branch: "Hyderabad",
-    BankId: "21",
-    Address: "2289 Rana Ramp , Hyderabad , India",
-  },
-  {
     Bank: "SOLAPUR JANATA SAHAKARI BANK LIMITED",
     IFSC: "SOLAXXXXXXX",
     Branch: "Solapur",
