@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+}
+tr {
+  text-align: center;
+}
+th,
+td {
+  padding: 50px;
+  border: 1px solid rgb(185, 179, 179);
+}
+th {
+  background-color: rgb(224, 219, 219);
+}
+.single-tbl {
+  width: 80vw;
+}
+select {
+  cursor: pointer;
+  width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  select {
+    width: 250px;
+  }
+  th,
+  td {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  select {
+    width: 200px;
+  }
+  th,
+  td {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  select {
+    width: 150px;
+  }
+}
